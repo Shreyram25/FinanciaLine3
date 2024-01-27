@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FinanciaLine</title>
+    </head>
+    <body style="background-color:#CB6CE6;">
+        <nav style="background-color:#00BF63;">
+            <table style="width:100%;font-size: 120%;">
+                <tr>
+                    <th>
+                        <img width="200" height="100" src="https://ugc.padletcdn.com/uploads/padlet-uploads/772896347/233f65f5609f14db21840a9a2e70313e/IMG_3764.jpeg?token=ovZCJ2DsQTTdlrr926tnqto8AUdkuKZ6x6FAMVy6n7-poSxZhGqP1uYapDZt8Es7IMGYQjFrEytvk7pzxUbF0ZlpwL7yxCdvO6iDm5WlOzfTObiilaDsI_hq4KXpaBL-dE1lFu90Gv0SNypCz4nuGsn34QLTunDvWbKQ78r_vdY9KU4yzwloLTJaQCRZhTxqL5pP9QodOSjxFQhaIvcC4L8xoRx7XuJ8CKP7GpaFXL_LdVgK4ShmQo-8RnFN3IUZ">
+                    </th>
+                    <th>
+                        <h1 style="text-align:center;font-family:Trebuchet MS;color:#eac5f5;">F<span style="color:#C1FF72;">inancia</span><span style="color:#eac5f5">L</span><span style="color:#C1FF72">ine</span><span style="color:#FFBD59"> - Making Your Financial Troubles Disappear</span></h1>
+                    </th>
+                    <th>
+                        <h1 style="text-align:center;font-family:Trebuchet MS;color:#eac5f5;" id="greeting">Hello!</h1>
+                    </th>
+                </tr>
+            </table>
+        </nav>
+        <table style="width:100%;">
+            <tr style="border:10px solid #00BF63;width:100%;">
+                <th style="border:10px solid #00BF63;width:30%;">
+                    <h2 style="color:#FFDE59;font-family:Helvetica;">Luxury Calculator</h2>
+                </th>
+                <th style="border:10px solid #00BF63;width:40%;">
+                    <h2 style="color:#FFDE59;font-family:Helvetica;">Upcoming Bills</h2>
+                </th>
+                <th style="border:10px solid #00BF63;width:30%;">
+                    <h2 style="color:#FFDE59;font-family:Helvetica;">Savings Calculator</h2>
+                </th>
+            </tr>
+            <tr style="border:10px solid #00BF63;width:100%;">
+                <th style="border:10px solid #00BF63;">
+                    <h2 style="color:#FFBD59;font-family:candara;font-size:250%;">You Can Spend</h2>
+                    <h2 style="color:#FFDE59;font-family:candara;font-size:250%;" id="luxury">_________</h2>
+                    <img width="100" height="100" src="https://ugc.padletcdn.com/uploads/padlet-uploads/1316333454/0961d492ce3cc671b142e6c82949511a/image__16_.png?token=Hs7ICVZnPysxjj5NjmKOPQEPnFBXj5O1G2gd9BlGiSznuaFcUCP7o1VNaxNYkH4n_jbGe73a_7BSeidSXmEseQnMiTJrjOhZ1sk6j8FlLIx3MJMs61wdVXzfJLD7tbU-bg1LKzGQY8PVzzaDYG_pmd0Ti6EmuOs16PNLda-aUvMqLljtwN_rK_7zIaoNQDdkvXuf23ncu--HJxRN2fhzMH1gw0EMMBNrOqZkcQyfS_WwERw_RRaYnbAIDHiTKBKL">
+                </th>
+                <th style="border:10px solid #00BF63;">
+                    <table width="100%" style="font-family:Helvetica;">
+                        <tr style="background-color:#00BF63;color:white;">
+                            <th>
+                                <p>Name</p>
+                            </th>
+                            <th>
+                                <p>Amount</p>
+                            </th>
+                            <th>
+                                <p>Deadline</p>
+                            </th>
+                            <th>
+                                <p>Paid?</p>
+                            </th>
+                        </tr>
+                        <tr style="color:#CB6CE6;">
+                            <th style="background-color:#FFE990;">
+                                <p id="task1n">Click Add</p>
+                            </th>
+                            <th style="background-color:#FFE990;">
+                                <p id="task1a">Click Add</p>
+                            </th>
+                            <th style="background-color:#FFE990;">
+                                <p id="task1d">Click Add</p>
+                            </th>
+                            <th style="background-color:#7ED957;">
+                                <button onClick="completea(event)" style="border-radius:100%;background-color: #7ED957;border:none;width:30;height:30;">
+                                    <img width="50" height="50" src="https://ugc.padletcdn.com/uploads/padlet-uploads/1316333454/9d89532e1e5b5d65328eb37e7b929265/image__18_.png?token=Hs7ICVZnPysxjj5NjmKOPQEPnFBXj5O1G2gd9BlGiSznuaFcUCP7o1VNaxNYkH4n_jbGe73a_7BSeidSXmEseQnMiTJrjOhZ1sk6j8FlLIx3MJMs61wdVXzfJLD7tbU-ZYzBu3SguzWUuANweg0BE9QbKfKuRnHoKC6_kInAS1e-T7E5XztdNYuu9kI6JxZcobhdu9FPu94BwZ4QHFO21mPJKhd9u4iwt5KURF9N4EScUUbF0VMEDG7MPVYxCQOM">
+                                </button>
+                            </th>
+                        </tr>
+                        <tr style="color:#CB6CE6;">
+                            <th style="background-color:#FFE990;">
+                                <p id="task2n">Click Add</p>
+                            </th>
+                            <th style="background-color:#FFE990;">
+                                <p id="task2a">Click Add</p>
+                            </th>
+                            <th style="background-color:#FFE990;">
+                                <p id="task2d">Click Add</p>
+                            </th>
+                            <th style="background-color:#7ED957;">
+                                <button onClick="completeb(event)" style="border-radius:100%;background-color: #7ED957;border:none;width:30;height:30;">
+                                    <img width="50" height="50" src="https://ugc.padletcdn.com/uploads/padlet-uploads/1316333454/9d89532e1e5b5d65328eb37e7b929265/image__18_.png?token=Hs7ICVZnPysxjj5NjmKOPQEPnFBXj5O1G2gd9BlGiSznuaFcUCP7o1VNaxNYkH4n_jbGe73a_7BSeidSXmEseQnMiTJrjOhZ1sk6j8FlLIx3MJMs61wdVXzfJLD7tbU-ZYzBu3SguzWUuANweg0BE9QbKfKuRnHoKC6_kInAS1e-T7E5XztdNYuu9kI6JxZcobhdu9FPu94BwZ4QHFO21mPJKhd9u4iwt5KURF9N4EScUUbF0VMEDG7MPVYxCQOM">
+                                </button>
+                            </th>
+                        </tr>
+                        <tr style="color:#CB6CE6;">
+                            <th style="background-color:#FFE990;">
+                                <p id="task3n">Click Add</p>
+                            </th>
+                            <th style="background-color:#FFE990;">
+                                <p id="task3a">Click Add</p>
+                            </th>
+                            <th style="background-color:#FFE990;">
+                                <p id="task3d">Click Add</p>
+                            </th>
+                            <th style="background-color:#7ED957;">
+                                <button onClick="completec(event)" style="border-radius:100%;background-color: #7ED957;border:none;width:30;height:30;">
+                                    <img width="50" height="50" src="https://ugc.padletcdn.com/uploads/padlet-uploads/1316333454/9d89532e1e5b5d65328eb37e7b929265/image__18_.png?token=Hs7ICVZnPysxjj5NjmKOPQEPnFBXj5O1G2gd9BlGiSznuaFcUCP7o1VNaxNYkH4n_jbGe73a_7BSeidSXmEseQnMiTJrjOhZ1sk6j8FlLIx3MJMs61wdVXzfJLD7tbU-ZYzBu3SguzWUuANweg0BE9QbKfKuRnHoKC6_kInAS1e-T7E5XztdNYuu9kI6JxZcobhdu9FPu94BwZ4QHFO21mPJKhd9u4iwt5KURF9N4EScUUbF0VMEDG7MPVYxCQOM">
+                                </button>
+                            </th>
+                        </tr>
+                        <tr style="background-color:#7ED957;color:#CB6CE6;">
+                            <th>
+                                <button onClick="reminder(event)" style="border-radius:100%;background-color: #7ED957;border:none;width:30;height:30;">
+                                    <img width="50" height="50" src="https://ugc.padletcdn.com/uploads/padlet-uploads/1316333454/1c6fc29cd5a3ad78aeb93491ac2927a2/image__20_.png?token=Hs7ICVZnPysxjj5NjmKOPQEPnFBXj5O1G2gd9BlGiSznuaFcUCP7o1VNaxNYkH4n_jbGe73a_7BSeidSXmEseQnMiTJrjOhZ1sk6j8FlLIx3MJMs61wdVXzfJLD7tbU-wlabADsNsHRWhNplEr2aFHJPE3GbkTdQXm-DjE_fTI6YhH7jLVWBSY9vAogHThyoXAnAILueqqaFhMEX8wPKEF0tOwBRbUKYKrmbm8DCH-VolOmY1kMZBZVNieHO6XxU">
+                                </button>
+                            </th>
+                            <th>
+                                <button onClick="reminder(event)" style="border-radius:100%;background-color: #7ED957;border:none;width:30;height:30;">
+                                    <img width="50" height="50" src="https://ugc.padletcdn.com/uploads/padlet-uploads/1316333454/1c6fc29cd5a3ad78aeb93491ac2927a2/image__20_.png?token=Hs7ICVZnPysxjj5NjmKOPQEPnFBXj5O1G2gd9BlGiSznuaFcUCP7o1VNaxNYkH4n_jbGe73a_7BSeidSXmEseQnMiTJrjOhZ1sk6j8FlLIx3MJMs61wdVXzfJLD7tbU-wlabADsNsHRWhNplEr2aFHJPE3GbkTdQXm-DjE_fTI6YhH7jLVWBSY9vAogHThyoXAnAILueqqaFhMEX8wPKEF0tOwBRbUKYKrmbm8DCH-VolOmY1kMZBZVNieHO6XxU">
+                                </button>
+                            </th>
+                            <th>
+                                <button onClick="reminder(event)" style="border-radius:100%;background-color: #7ED957;border:none;width:30;height:30;">
+                                    <img width="50" height="50" src="https://ugc.padletcdn.com/uploads/padlet-uploads/1316333454/1c6fc29cd5a3ad78aeb93491ac2927a2/image__20_.png?token=Hs7ICVZnPysxjj5NjmKOPQEPnFBXj5O1G2gd9BlGiSznuaFcUCP7o1VNaxNYkH4n_jbGe73a_7BSeidSXmEseQnMiTJrjOhZ1sk6j8FlLIx3MJMs61wdVXzfJLD7tbU-wlabADsNsHRWhNplEr2aFHJPE3GbkTdQXm-DjE_fTI6YhH7jLVWBSY9vAogHThyoXAnAILueqqaFhMEX8wPKEF0tOwBRbUKYKrmbm8DCH-VolOmY1kMZBZVNieHO6XxU">
+                                </button>
+                            </th>
+                            <th>
+                                <button onClick="reminder(event)" style="border-radius:100%;background-color: #7ED957;border:none;width:30;height:30;">
+                                    <img width="50" height="50" src="https://ugc.padletcdn.com/uploads/padlet-uploads/1316333454/1c6fc29cd5a3ad78aeb93491ac2927a2/image__20_.png?token=Hs7ICVZnPysxjj5NjmKOPQEPnFBXj5O1G2gd9BlGiSznuaFcUCP7o1VNaxNYkH4n_jbGe73a_7BSeidSXmEseQnMiTJrjOhZ1sk6j8FlLIx3MJMs61wdVXzfJLD7tbU-wlabADsNsHRWhNplEr2aFHJPE3GbkTdQXm-DjE_fTI6YhH7jLVWBSY9vAogHThyoXAnAILueqqaFhMEX8wPKEF0tOwBRbUKYKrmbm8DCH-VolOmY1kMZBZVNieHO6XxU">
+                                </button>
+                            </th>
+                        </tr>
+                    </table>
+                </th>
+                <th style="border:10px solid #00BF63;">
+                    <h2 style="color:#FFBD59;font-family:candara;font-size:250%;">You Must Save</h2>
+                    <h2 style="color:#FFE990;font-family:candara;font-size:250%;" id="saves">_________</h2>
+                    <img width="100" height="100" src="https://ugc.padletcdn.com/uploads/padlet-uploads/1316333454/59e8c7ea844aa4182870bb77038e24ba/image__17_.png?token=Hs7ICVZnPysxjj5NjmKOPQEPnFBXj5O1G2gd9BlGiSznuaFcUCP7o1VNaxNYkH4n_jbGe73a_7BSeidSXmEseQnMiTJrjOhZ1sk6j8FlLIx3MJMs61wdVXzfJLD7tbU-0I-AWwyPqOgQzWpEicqE1t4mRju403_jcBpyyGiplOaw6IB9NLLcpDevRRm2kgc-LJgxDpZmKXcP0wHIGVSrplEDKf3BUde_boPajANvTfOeM_4U2EPPcK-dpEwb9-cv">
+                </th>
+            </tr>
+        </table>
+        <table style="width:100%;">
+            <tr style="border:10px solid #00BF63;">
+                <th style="border:10px solid #00BF63;">
+                    <form onSubmit="accessUniqueID(event)">
+                        <label for="uid" style="color:#FFDE59;font-family:Helvetica;font-size: larger;">Unique ID:</label>
+                        <input type="text" name="uid" id="uid" required style="font-family: Helvetica;color: black;border:3px solid white;" placeholder="Enter here">
+                        <button type="submit" style="border-radius:100%;background-color: #CB6CE6;border:none;width:30;height:30;">
+                            <img style="margin-left: 20px;vertical-align:middle;" width="30" height="30" src="https://ugc.padletcdn.com/uploads/padlet-uploads/1316333454/7a34e3263778f8dc39450a365b78926b/image__21_.png?token=Hs7ICVZnPysxjj5NjmKOPQEPnFBXj5O1G2gd9BlGiSznuaFcUCP7o1VNaxNYkH4n_jbGe73a_7BSeidSXmEseQnMiTJrjOhZ1sk6j8FlLIx3MJMs61wdVXzfJLD7tbU-0vKzA8quSkNX4CuEsUC27_rhxyX4q202Vdv6J2y301FM-GBWZd5-yiUjk8R3cL4eQ8M5Uzb_6YZd-3rOhpADPi8_hWteY8u4bf2oOWFRJH3auwEVMFql4y-krQ1wwfbe">
+                        </button>
+                    </form>
+                </th>
+                <th style="border:10px solid #00BF63;width:50%;">
+                    <h1 style="color:#FFDE59;font-family:Helvetica;">Useful Tips</h1>
+                </th>
+            </tr>
+            <tr style="border:10px solid #00BF63;">
+                <th style="border:10px solid #00BF63;">
+                    <form onsubmit="updateGreeting(event)">
+                        <label for="name" style="color:#FFDE59;font-family:Helvetica;font-size: larger;">Your Name:</label>
+                        <input type="text" id="name" name="name" required style="font-family: Helvetica;color: black; margin-right: 20px;border:3px solid white;" placeholder="Enter here">
+                        <br>
+                        <label for="salary" style="color:#FFDE59;font-family:Helvetica;font-size: larger;">Your Salary:</label>
+                        <input type="text" id="salary" name="salary" required style="font-family: Helvetica;color:black;border:3px solid white;" placeholder="Enter here" pattern="[0-9]+"title="Numbers Only">
+                        <button type="submit" style="border-radius:100%;background-color: #CB6CE6;border:none;width:30;height:30;">
+                            <img style="margin-left: 20px;vertical-align:middle;width:30px;height:30px;" src="https://ugc.padletcdn.com/uploads/padlet-uploads/1316333454/7a34e3263778f8dc39450a365b78926b/image__21_.png?token=Hs7ICVZnPysxjj5NjmKOPQEPnFBXj5O1G2gd9BlGiSznuaFcUCP7o1VNaxNYkH4n_jbGe73a_7BSeidSXmEseQnMiTJrjOhZ1sk6j8FlLIx3MJMs61wdVXzfJLD7tbU-0vKzA8quSkNX4CuEsUC27_rhxyX4q202Vdv6J2y301FM-GBWZd5-yiUjk8R3cL4eQ8M5Uzb_6YZd-3rOhpADPi8_hWteY8u4bf2oOWFRJH3auwEVMFql4y-krQ1wwfbe">
+                        </button>
+                    </form>
+                </th>
+                <th style="border:10px solid #00BF63;">
+                    <a style="font-family:Helvetica;" href="https://www.ramseysolutions.com/" target="_blank"><h2>Save $1000 in 90 Days - By Dave Ramsey</h2></a>
+                </th>
+            </tr>
+            <tr style="border:10px solid #00BF63;">
+                <th style="border:10px solid #00BF63;text-align:left;">
+                    <p id="uniqueCode" style="margin-left:20px;color:#FFDE59;font-family:Helvetica;font-size: larger;">Enter Your Details Above For Your Unique ID</p>
+                    <p style="margin-left:20px;color:#FFDE59;font-family:Helvetica;font-size: larger;">Don't Worry! All your information is completely secure and safe!</p>
+                </th>
+                <th>
+                    <table style="width:100%;">
+                        <tr>
+                            <th style="border:10px solid #00BF63;">
+                                <a style="font-family:Helvetica;" href="http://www.suzeorman.com/" target="_blank"><h2>Ditch your Debt - By Suze Orman</h2></a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="border:10px solid #00BF63;">
+                                <a style="font-family:Helvetica;" target="_blank" href="https://ia803405.us.archive.org/23/items/the-bogleheads-guide-to-investing/The%20Bogleheads'%20Guide%20to%20Investing.pdf"><h2>Guide to Investing - Carl Richards</h2></a>
+                            </th>
+                        </tr>
+                    </table>       
+                </th>
+            </tr>
+        </table>
+        <table style="width:100%;">
+            <tr style="background-color: #00BF63;">
+                <th>
+                    <a href="./index.html"><button style="border: 3px solid white; background-color: #C1FF72; padding: 15px 30px; border-radius: 50px;margin-right: 20px;"></button></a>
+                    <button style="border: 5px solid white; background-color: #CB6CE6; padding: 15px 30px; border-radius: 50px;"></button>
+                    <a href="./orange.html"><button style="border: 3px solid white; background-color: #FFBD59; padding: 15px 30px; border-radius: 50px;margin-left: 20px;"></button></a>
+                </th>
+            </tr>
+        </table>
+        <footer>
+            <table style="width: 100%;border:10px solid #00BF63">
+                <tr style="font-size: larger;color: #FFDE59;font-family: Helvetica;">
+                    <th style="text-align: left;">
+                        <p>Created By: Shreyram Seetharaman</p>
+                        <p>Email: <a href="mailto:shreyram25@gmail.com">shreyram25@gmail.com</a></p>
+                    </th>
+                    <th style="text-align: right;">
+                        <p>Phone Number: <a href="tel:+971521240770">+971521240770</a></p>
+                        <p>Copyrighted by: XYZ L.L.C. &copy;</p>
+                    </th>
+                </tr>
+            </table>
+
+        </footer>
+    </div>
+        <script>
+            let uniqueCodes = [];
+            let lastCode = -1;
+            let remindernum = 0;
+            function updateGreeting(event) {
+                event.preventDefault();
+                var name = document.getElementById('name').value;
+                var salary = document.getElementById('salary').value;
+                var greeting = document.getElementById('greeting');
+                greeting.textContent = 'Hello, ' + name;
+                console.log(name);
+                console.log(salary);
+
+                lastCode++
+                var code = lastCode;
+                var uniqueCode = name + "SPLIT" + salary;
+                uniqueCodes.push(uniqueCode);
+                var uniqueCodeParagraph = document.getElementById('uniqueCode');
+                uniqueCodeParagraph.textContent = 'Your unique code is: ' + code;
+                console.log(uniqueCode);
+                var dluxury = salary * 0.1;
+                var sluxury = dluxury.toFixed(2);
+                var dsaves = salary * 0.25;
+                var ssaves = dsaves.toFixed(2);
+                saves.textContent = ssaves + "AED";
+                luxury.textContent = sluxury + "AED";
+            }
+            function accessUniqueID(event) {
+                event.preventDefault();
+                var uid = document.getElementById('uid').value;
+                var rec = uniqueCodes[uid];
+                var parts = rec.split("SPLIT");
+                var dluxury = parts[1] * 0.1;
+                var sluxury = dluxury.toFixed(2);
+                var dsaves = parts[1] * 0.25;
+                var ssaves = dsaves.toFixed(2);
+                saves.textContent = ssaves;
+                luxury.textContent = sluxury;
+                greeting.textContent = 'Hello, ' + parts[0];
+                var uniqueCodeParagraph = document.getElementById('uniqueCode');
+                uniqueCodeParagraph.textContent = 'Welcome back, ' + parts[0] + '!';
+            }
+            function reminder(event) {
+                event.preventDefault();
+                remindernum++;
+                if (remindernum == 1) {    
+                    var TaskName = prompt("Task Name:");
+                    var TaskAmount = prompt("Amount:");
+                    var TaskDeadline = prompt("Deadline:");
+                    task1n.textContent = TaskName;
+                    task1a.textContent = TaskAmount;
+                    task1d.textContent = TaskDeadline;
+                    alert("Reminder Set!");
+                    console.log(remindernum);
+                }
+                if (remindernum == 2 && task1a.textContent == "Click Add") {
+                    var TaskName = prompt("Task Name:");
+                    var TaskAmount = prompt("Amount:");
+                    var TaskDeadline = prompt("Deadline:");
+                    task1n.textContent = TaskName;
+                    task1a.textContent = TaskAmount;
+                    task1d.textContent = TaskDeadline;
+                    alert("Reminder Set!");
+                    console.log(remindernum);
+                }
+                else if (remindernum == 2 && task2a.textContent == "Click Add") {
+                    var TaskName = prompt("Task Name:");
+                    var TaskAmount = prompt("Amount:");
+                    var TaskDeadline = prompt("Deadline:");
+                    task2n.textContent = TaskName;
+                    task2a.textContent = TaskAmount;
+                    task2d.textContent = TaskDeadline;
+                    alert("Reminder Set!");
+                    console.log(remindernum);
+                }
+                else if (remindernum == 2 && task3a.textContent == "Click Add") {
+                    var TaskName = prompt("Task Name:");
+                    var TaskAmount = prompt("Amount:");
+                    var TaskDeadline = prompt("Deadline:");
+                    task3n.textContent = TaskName;
+                    task3a.textContent = TaskAmount;
+                    task3d.textContent = TaskDeadline;
+                    alert("Reminder Set!");
+                    console.log(remindernum);
+                }
+                if (remindernum == 3 && task1a.textContent == "Click Add") {
+                    var TaskName = prompt("Task Name:");
+                    var TaskAmount = prompt("Amount:");
+                    var TaskDeadline = prompt("Deadline:");
+                    task1n.textContent = TaskName;
+                    task1a.textContent = TaskAmount;
+                    task1d.textContent = TaskDeadline;
+                    alert("Reminder Set!");
+                    console.log(remindernum);
+                }
+                else if (remindernum == 3 && task2a.textContent == "Click Add") {
+                    var TaskName = prompt("Task Name:");
+                    var TaskAmount = prompt("Amount:");
+                    var TaskDeadline = prompt("Deadline:");
+                    task2n.textContent = TaskName;
+                    task2a.textContent = TaskAmount;
+                    task2d.textContent = TaskDeadline;
+                    alert("Reminder Set!");
+                    console.log(remindernum);
+                }
+                else if (remindernum == 3 && task3a.textContent == "Click Add") {
+                    var TaskName = prompt("Task Name:");
+                    var TaskAmount = prompt("Amount:");
+                    var TaskDeadline = prompt("Deadline:");
+                    task3n.textContent = TaskName;
+                    task3a.textContent = TaskAmount;
+                    task3d.textContent = TaskDeadline;
+                    alert("Reminder Set!");
+                    console.log(remindernum);
+                }
+                if (remindernum > 3) {
+                    alert("You can only set 3 reminders!");
+                    remindernum --;
+                    console.log(remindernum);
+                }
+            }
+            function completea(event){
+                event.preventDefault();
+                if (task1n.textContent != "Click Add") {
+                    remindernum --;
+                    console.log(remindernum);
+                }
+                task1n.textContent = "Click Add";
+                task1a.textContent = "Click Add";
+                task1d.textContent = "Click Add";
+            }
+            function completeb(event){
+                event.preventDefault();
+                if (task2n.textContent != "Click Add") {
+                    remindernum --;
+                    console.log(remindernum);
+                }
+                task2n.textContent = "Click Add";
+                task2a.textContent = "Click Add";
+                task2d.textContent = "Click Add";
+            }
+            function completec(event){
+                event.preventDefault();
+                if (task3n.textContent != "Click Add") {
+                    remindernum --;
+                    console.log(remindernum);
+                }
+                task3n.textContent = "Click Add";
+                task3a.textContent = "Click Add";
+                task3d.textContent = "Click Add";
+            }
+        </script>
+    </body>
+</html>
